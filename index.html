@@ -15,16 +15,22 @@
 <body>
     <div class="container">
 
-        <header class=" d-flex align-items-center mt-5">
-            <img src="images/jslogo.png" alt="JavaScript logo" width="150px">
-            <h1>
-                Exercícios de JavaScript
-            </h1>
-            <aside class="box">
-                Clica nos exercícios para ver os códigos em funcionamento 
-            </aside>
+        <header class="mt-5">
+            <div class="row">
+                <div class="col-6 d-flex align-items-center"> <img src="images/jslogo.png" alt="JavaScript logo"
+                        width="150px">
+                    <h1>
+                        Exercícios de JavaScript
+                    </h1>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                    <aside class="box">
+                        Clica nos exercícios para ver os códigos em funcionamento
+                    </aside>
+                </div>
+            </div>
         </header>
-        
+
         <section class="m-5">
             <button id="first" onClick="ex01();">1. Faça um programa que mostre a mensagem "Alo, mundo!" na
                 tela.
@@ -32,7 +38,7 @@
             <div class="mt-3">
                 <code>
                     <pre>
-                   alert("Hello, world!"); 
+            alert("Hello, world!"); 
                     </pre>
                 </code>
             </div>
@@ -49,12 +55,12 @@
             <div class="mt-3">
                 <code>
                     <pre>
-                         let num = document.getElementById("ex02num").value;
-                         if(!num){
-                            alert("Favor informar um número");
-                         }else{
-                            document.getElementById("res2").innerHTML = `O número informado foi ${num}`;
-                            }
+            let num = document.getElementById("ex02num").value;
+            if(!num){
+              alert("Favor informar um número");
+            }else{
+              document.getElementById("res2").innerHTML = `O número informado foi ${num}`;
+            }
                     </pre>
                  </code>
             </div>

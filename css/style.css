@@ -21,6 +21,8 @@ code, pre{
     width: 300px;
     padding: 15px;
     text-align: center;
-    position: absolute; 
-    right: 100px;
+}
+
+#ex2{
+    display: none;
 }

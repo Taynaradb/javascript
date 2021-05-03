@@ -9,10 +9,10 @@ function ex01() {
 
     let ex = document.getElementById('ex2');
      
-    if(ex.style.display == 'none'){
-        ex.style.display = 'block';
+    if(ex.style.display == 'block'){
+        ex.style.display = 'none';
     }else{
-        ex.style.display = "none";
+        ex.style.display = "block";
     }
 }
 
